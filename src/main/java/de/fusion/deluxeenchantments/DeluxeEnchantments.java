@@ -46,7 +46,6 @@ public class DeluxeEnchantments extends JavaPlugin {
     public void onDisable() {
         super.onDisable();
         running = false;
-
     }
 
     public void log(String message) {

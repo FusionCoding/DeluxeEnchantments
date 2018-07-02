@@ -6,10 +6,8 @@ import java.io.File;
 
 public abstract class ConfigAdapter {
 
-
     private final File f;
     private YamlConfiguration configuration;
-
 
     protected ConfigAdapter(File f) {
         this.f = f;
