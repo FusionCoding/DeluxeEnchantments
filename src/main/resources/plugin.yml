@@ -1,0 +1,11 @@
+name: DeluxeEnchantments
+version: 1.0
+main: de.fusion.deluxeenchantments.DeluxeEnchantments
+author: FusionCoding
+description: DeluxeEnchantments is a smart plugin for enhanced enchantments
+load: STARTUP
+website: https://deluxenode.com/
+database: false
+commands:
+  deluxeenchantments:
+    aliases: [de, enchant]
