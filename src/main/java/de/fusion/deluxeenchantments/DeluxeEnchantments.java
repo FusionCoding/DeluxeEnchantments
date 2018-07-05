@@ -48,23 +48,6 @@ public class DeluxeEnchantments extends JavaPlugin {
         log("Loaded DeluxeEnchantments by FusionCoding");
 
         PluginManager pm = Bukkit.getPluginManager();
-
-        DeluxeItem item = new DeluxeItem();
-        item.setCountKills(true);
-        item.setDisplayName("&aBest Sword Ever");
-        List<DeluxeEffect> l = new ArrayList<>();
-        l.add(new DeluxeEffect(Effects.DOUBLE_HIT, "5"));
-        l.add(new DeluxeEffect(Effects.LIFE_STEALING, "70"));
-        l.add(new DeluxeEffect(Effects.PERMANENT, "SPEED#30#2#5"));
-        l.add(new DeluxeEffect(Effects.EFFECT_TO_SELF, "SPEED#30#2#5"));
-        item.setEffects(l);
-        List<String> l2 = new ArrayList<>();
-        l2.add("SHARPNESS#1");
-        item.setEnchantments(l2);
-        item.setItemType(DeluxeItemType.WEAPON);
-        item.setLore("This is best sword i swear");
-        item.setMaterial(Material.DIAMOND_SWORD.name());
-        System.out.println(new GsonBuilder().setPrettyPrinting().create().toJson(item));
     }
 
     @Override
